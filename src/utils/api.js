@@ -30,6 +30,6 @@ export const fetchBoard = async () => {
 }
 
 export const applyPatch = async (patch) => {
-  // Lower failure rate for operations (5% instead of 20%)
+  // Lower failure rate for operations 5%
   return simulate({ ok: true, patch }, 0.05)
 }
