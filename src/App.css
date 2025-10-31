@@ -1,0 +1,18 @@
+
+/* Modern component-specific styles */
+.task-card-dragging {
+  transform: rotate(5deg);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.column-droppable-over {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(147, 197, 253, 0.1));
+}
+
+.sync-indicator {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.task-edit-input {
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
